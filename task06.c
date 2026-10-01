@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define DAYS_PER_YEAR 365
+#define HOURS_PER_DAY 24
+#define SECONDS_PER_HOUR 3600
+int main()
+{
+int years = 18;
+int days = years*DAYS_PER_YEAR;
+int hours = days*HOURS_PER_DAY;
+int seconds = days*SECONDS_PER_HOUR;
+printf("Тики: %d|Часы: %d|Дни: %d|Годы: %d", seconds,hours,days,years);
+return 0;
+}
